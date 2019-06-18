@@ -65,10 +65,10 @@ calling functions:
     - we do this by saying ```bob.walk()```
 - take the ```walk_5_times()``` function above and say we want bob to do those actions
     - you need to call the function in the commands.py ```run()``` function at the bottom
-    - calling ```walk_5_times()``` in the run function will look like:
+    - calling ```walk_5_times()``` in the ```run()``` function will look like:
     ```python
     def run():
-            self.walk_5_times()
+        self.walk_5_times()
     ```
     - remember that you need the ```self``` keyword before your function name in the ```run()``` function
 - then to run your code, you have to run main.py
