@@ -4,6 +4,7 @@
 [Link to Slideshow](google.com)
 
 ### Topics:
+
 - explaining what computer programming is
 - introducing wombat game
     - basic rules
@@ -21,6 +22,7 @@
 ### Notes:
 
 wombat game:
+
 - the wombat has 7 default actions
     1. walk in the direction its facing -> ```bob.walk()```
     2. turn left once -> ```bob.turn_left()```
@@ -39,12 +41,14 @@ wombat game:
 
 
 2 files:
+
 - the __only__ files you should be editing are __main.py__ and __commands.py__
 - commands for the wombat go in commands.py
 - the only edits you do in main.py are changing the setup variables at the top such as ```delay```, ```wombat```, and ```world```
 - to run your commands you need to call your function you just created in the ```run()``` function at the bottom of commands.py
 
 creating a basic function:
+
 - a function is just a collection of simple instructions to do a more complex task
 - need to use the ```def``` keyword to start
 - create a unique and descriptive function name
@@ -62,6 +66,7 @@ def walk_5_times():
 ```
 
 calling functions:
+
 - calling a function is telling the computer to execute all the commands within it
 - if we want bob the wombat to walk forward once we need to call the walk function on him
     - we do this by saying ```bob.walk()```
@@ -76,6 +81,7 @@ calling functions:
 - then to run your code, you have to run main.py
 
 modifying starting conditions:
+
 - the wombat can start in different cells on the screen depending on where you set the starting location
     - by default the starting location is 0, 0 which is the upper left corner
     - you can change where the wombat starts by changing ```wombat = Wombat(wombat_img, 0, 0)``` in main.py to ```wombat = Wombat(wombat_img, 0, 11)``` which would mean the wombat now starts in the bottom left corner
@@ -86,6 +92,7 @@ modifying starting conditions:
 
 
 ### Homework:
+
 Make a program which combines a couple of the function we learned about today to do something interesting
 
 examples:
