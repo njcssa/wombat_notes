@@ -55,6 +55,7 @@ if statements:
 
 
 problem: make a program which walks the wombat around the edge of the screen
+![](/gifs/day2/walk_edge.gif)
 - if you use single commands over and over such as ```bob.walk()``` the program will be very long and tedious to write
 - you can shorten your code by implementing a loop
     - a loop is a piece of code which allows a piece of code to run multiple times
@@ -83,9 +84,11 @@ problem: pick all leaf piles in a row only if that pile has more than 5 leaves
 - do this until you reach the other side
 
 problem: pick all leaves in stacks which have even numbers of leaves and add 1 leaf to piles which have odd numbers of leaves
+![](/gifs/day2/pick_only_evens.gif)
 - this is similar to the problem above but now you need two options: an ```if``` and an ```else``` to make sure you catch both cases
 
 problem: have wombat clear whole screen of leaves using code we already made
+![](/gifs/day2/world1.gif)
 - this is combining everything we have learned in the previous problems
 - you have to have some extra code here to tell the wombat which direction to turn at the end of the row
     - if it's on the right side it needs to turn back left so it can walk back the other direction and vice-versa

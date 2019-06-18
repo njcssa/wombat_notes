@@ -33,6 +33,8 @@ wombat game:
     - the wombat crashes into a rock or a wall
     - the wombat tries to pick a leaf on a spot which doesn't have a leaf
     - the wombat tries to place a leaf when it doesn't have any leaves to place
+    - example:
+    ![](/gifs/day1/move_until_broken.gif)
 - the screen is a 16x12 grid and those dimensions will never change
 
 
