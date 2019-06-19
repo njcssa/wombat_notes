@@ -3,7 +3,7 @@
 
 [Link to Slideshow](google.com)
 
-### Topics:
+## Topics:
 
 - explaining what computer programming is
 - introducing wombat game
@@ -19,7 +19,7 @@
 - making a basic program which causes the wombat to take 3 steps forward
 
 
-### Notes:
+## Notes:
 
 wombat game:
 
@@ -91,7 +91,7 @@ modifying starting conditions:
 - the animation speed of the wombat can be changed by going into main.py and changing the value of the variable ```delay = 0.05``` to ```delay = 0.00``` for example. (this change makes the wombat move as fast as possible)
 
 
-### Homework:
+## Homework:
 
 Make a program which combines a couple of the function we learned about today to do something interesting
 

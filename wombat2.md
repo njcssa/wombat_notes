@@ -2,7 +2,7 @@
 
 [Link to Slideshow](google.com)
 
-### Topics:
+## Topics:
 
 - 5-10 minutes of going over homework
 - 5 minute review of what we did last class
@@ -16,7 +16,7 @@
 
 
 
-### Notes:
+## Notes:
 variables:
 
 - variables allow the computer to store information that can be used later
@@ -75,24 +75,59 @@ problem: make a program which walks the wombat around the edge of the screen
 
 problem: walk over to a pile of 10 leaves and pick them all up
 
+![](/gifs/day2/pick_ten.gif)
+
 - again like above, you should use a loop to solve this problem
 - however, this time, you would want to use the built in function ```found_leaf()``` to determine if the wombat is on a square which holds the stack of leaves
 - then once you determine that you are on the square, you pick them up _while_ you have _found a leaf_
 
 problem(student): pick all leaf piles in 1 row
 
+![](/gifs/day2/row_leaf_piles.gif)
+
 - this is a similar problem to the one above but now you need to adapt it for multiple leaf piles
 - hint: you'll know you're done picking up leaf piles once the wombat can't move anymore -> it'll be at the other side
+- hint: you'll need to do two checks this time for the while loop which controls the wombat's walking
+    - this can be done in the following way:
+    ```python
+    while not bob.found_leaf() and bob.can_move():
+        bob.walk()
+    ```
+    - therefore, bob will only walk when he __both__ hasn't found a leaf _and_ he can move
+    - notice how you can chain true and false checks together using the ```and``` keyword
 
 problem: pick all leaf piles in a row only if that pile has more than 5 leaves
+
+![](/gifs/day2/more_than_5.gif)
 
 - this is similar to the problem above but now we need to determine if the pile has more than 5 leaves
 - hint: make some code to count the leaves on the square by using a variable which stores the count
 - only _if_ the count of leaves is higher than 5 pick the rest of the leaves on the square
 - otherwise, put the leaves back
 - do this until you reach the other side
+- hint: the last spot is tricky if your while loop depends on the truth of ```bob.can_move()``` - __remember__ this for other problems
+    - an organized way to do the problem may look like this:
+    ```python
+    def count_five(self):
+        leaf_count = 0
+        while bob.found_leaf():
+            bob.pick_leaf()
+            leaf_count += 1
+        if leaf_count <= 5:
+            while leaf_count > 0:
+                bob.place_leaf()
+                leaf_count -= 1
+    
+    def greater_than_five2(self):
+        while bob.can_move():
+            self.count_five()
+            bob.walk()
+        self.count_five()
+    ```
 
 problem: pick all leaves in stacks which have even numbers of leaves and add 1 leaf to piles which have odd numbers of leaves
+
+![](/gifs/day2/pick_even_add_one.gif)
 
 - this is similar to the problem above but now you need two options: an ```if``` and an ```else``` to make sure you catch both cases
 
@@ -106,6 +141,6 @@ problem: have wombat clear whole screen of leaves using code we already made
 
 
 
-### Homework:
+## Homework:
 
 Continue on classwork if it's not finished. Otherwise, no homework. You should spend at least an hour on the homework and you are welcome to work longer than that. Be prepared to tell your teachers what progress you made at home.
