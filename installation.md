@@ -51,6 +51,7 @@ Linux distributions will already have Python3 installed so you don't have to wor
 ### VSCode
 
 Linux link: https://go.microsoft.com/fwlink/?LinkID=760868
+
 Mac link: https://go.microsoft.com/fwlink/?LinkID=620882
 
 1. Go through the installer
