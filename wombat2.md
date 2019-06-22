@@ -58,6 +58,9 @@ if statements:
 - in this case, the computer would print that c is bigger because 10 > 5 -> True
 
 
+for testing out variables, if statements, and while loops more, go to https://repl.it/languages/python3, paste the code, and run it.
+
+
 problem: make a program which walks the wombat around the edge of the screen
 
 ![](/gifs/day2/walk_edge.gif)

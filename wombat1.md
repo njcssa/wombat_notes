@@ -57,7 +57,7 @@ creating a basic function:
 - indent correctly inside the function to tell the computer what code belongs to the function
 - this is a function which makes the wombat walk forward 5 times:
 ```python
-def walk_5_times():
+def walk_5_times(self):
     bob.walk()
     bob.walk()
     bob.walk()
@@ -74,7 +74,7 @@ calling functions:
     - you need to call the function in the commands.py ```run()``` function at the bottom
     - calling ```walk_5_times()``` in the ```run()``` function will look like:
     ```python
-    def run():
+    def run(self):
         self.walk_5_times()
     ```
     - remember that you need the ```self``` keyword before your function name in the ```run()``` function
