@@ -65,6 +65,7 @@ problem: make a program which walks the wombat around the edge of the screen
 
 ![](/gifs/day2/walk_edge.gif)
 
+- use setup 0
 - if you use single commands over and over such as ```bob.walk()``` the program will be very long and tedious to write
 - you can shorten your code by implementing a loop
     - a loop is a piece of code which allows a piece of code to run multiple times
@@ -80,6 +81,7 @@ problem: walk over to a pile of 10 leaves and pick them all up
 
 ![](/gifs/day2/pick_ten.gif)
 
+- use setup 11
 - again like above, you should use a loop to solve this problem
 - however, this time, you would want to use the built in function ```found_leaf()``` to determine if the wombat is on a square which holds the stack of leaves
 - then once you determine that you are on the square, you pick them up _while_ you have _found a leaf_
@@ -88,6 +90,7 @@ problem(student): pick all leaf piles in 1 row
 
 ![](/gifs/day2/row_leaf_piles.gif)
 
+- use setup 12
 - this is a similar problem to the one above but now you need to adapt it for multiple leaf piles
 - hint: you'll know you're done picking up leaf piles once the wombat can't move anymore -> it'll be at the other side
 - hint: you'll need to do two checks this time for the while loop which controls the wombat's walking
@@ -103,6 +106,7 @@ problem: pick all leaf piles in a row only if that pile has more than 5 leaves
 
 ![](/gifs/day2/more_than_5.gif)
 
+- use setup 5
 - this is similar to the problem above but now we need to determine if the pile has more than 5 leaves
 - hint: make some code to count the leaves on the square by using a variable which stores the count
 - only _if_ the count of leaves is higher than 5 pick the rest of the leaves on the square
@@ -132,12 +136,14 @@ problem: pick all leaves in stacks which have even numbers of leaves and add 1 l
 
 ![](/gifs/day2/pick_even_add_one.gif)
 
+- use setup 5
 - this is similar to the problem above but now you need two options: an ```if``` and an ```else``` to make sure you catch both cases
 
 problem: have wombat clear whole screen of leaves using code we already made
 
 ![](/gifs/day2/world1.gif)
 
+- use setup 1
 - this is combining everything we have learned in the previous problems
 - you have to have some extra code here to tell the wombat which direction to turn at the end of the row
     - if it's on the right side it needs to turn back left so it can walk back the other direction and vice-versa

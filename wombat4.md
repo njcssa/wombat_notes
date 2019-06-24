@@ -13,18 +13,20 @@
 
 ## Notes:
 
-problem(student): draw first letter of your first name with leaves
+problem(student): make a program which solves the doors setup
 
 ![](/gifs/day4/doors1.gif)
 
+- use setup 8
 - figure out how to detect a door using the wombat
 - hint: you know you're done when you've gone through 8 doors
 
 
-problem(student)(challenge): climb over mountains
+problem(student)(challenge): make a program which solves the doors setup with leaves
 
 ![](/gifs/day4/doors2.gif)
 
+- use setup 9
 - now you have to check how many leaves are in a door and keep searching if the amount of leaves is not 1
 - again, you know you're done when you've gone through 8 doors
 
