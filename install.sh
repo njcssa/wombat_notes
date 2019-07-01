@@ -1,12 +1,15 @@
 #!/bin/sh
-
+apt-get update
 apt-get install git
 apt-get install python3-venv
 apt-get install python3-pip
+apt-get install curl
+
 cd ~/Desktop
 git clone https://github.com/njcssa/summer2019_wombatgame.git
 cd summer2019_wombatgame
-source venv/bin/activate
+python3 -m venv venv
+. ./venv/bin/activate
 pip install -r requirements.txt
 
 
