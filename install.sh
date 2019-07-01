@@ -2,6 +2,7 @@
 
 apt-get install git
 apt-get install python3-venv
+apt-get install python3-pip
 cd ~/Desktop
 git clone https://github.com/njcssa/summer2019_wombatgame.git
 cd summer2019_wombatgame
