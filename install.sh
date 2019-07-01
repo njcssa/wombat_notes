@@ -28,10 +28,8 @@ then
 elif [ "$arch" = "$threetwobit" ]
 then
     # installing vscode for 32bit systems
-    curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
-    install -o root -g root -m 644 microsoft.gpg /etc/apt/trusted.gpg.d/
-    sh -c 'echo "deb [arch=i386] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list'
-    apt-get install apt-transport-https
+    curl -o code.deb -L https://code.visualstudio.com/docs/?dv=linux32_deb
     apt-get update
-    apt-get install code
+    dpkg -i code.deb
+    #apt-get install code
 fi
