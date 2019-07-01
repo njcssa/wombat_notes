@@ -28,7 +28,7 @@ then
 elif [ "$arch" = "$threetwobit" ]
 then
     # installing vscode for 32bit systems
-    curl -o code.deb -L https://code.visualstudio.com/docs/?dv=linux32_deb
+    curl -o code.deb -L https://go.microsoft.com/fwlink/?LinkID=760680
     apt-get update
     dpkg -i code.deb
     #apt-get install code
