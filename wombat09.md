@@ -59,6 +59,7 @@
 
 - here is a good resource for learning more about the bubble sort: https://www.geeksforgeeks.org/bubble-sort/
 - wikipedia link for bubble sort: https://en.wikipedia.org/wiki/Bubble_sort
+
 ![](/gifs/day9/bubble-sort.gif)
 
 
