@@ -50,14 +50,68 @@ elif [ $machine = "Mac" ]
 then
     # macos case
 
+    # Check for Homebrew, install if we don't have it
+    if test ! $(which brew); then
+        echo "Installing homebrew..."
+        ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    fi
+
+    # Update homebrew recipes
+    brew update
+
+    # Install GNU core utilities (those that come with OS X are outdated)
+    brew tap homebrew/dupes
+    brew install coreutils
+    brew install gnu-sed --with-default-names
+    brew install gnu-tar --with-default-names
+    brew install gnu-indent --with-default-names
+    brew install gnu-which --with-default-names
+    brew install gnu-grep --with-default-names
+
+    PACKAGES=(
+        git
+        python3
+    )
+
+    echo "Installing packages..."
+    brew install ${PACKAGES[@]}
+
+    echo "Cleaning up..."
+    brew cleanup
+
+    echo "Installing cask..."
+    brew install caskroom/cask/brew-cask
+
+    CASKS=(
+        visual-studio-code
+    )
+
+    echo "Installing cask apps..."
+    brew cask install ${CASKS[@]}
+
+    echo "Installing Python packages..."
+    PYTHON_PACKAGES=(
+        virtualenv
+    )
+    sudo pip install ${PYTHON_PACKAGES[@]}
+
+    # creating wombatgame directory
+    cd ~/Desktop
+    git clone https://github.com/njcssa/summer2019_wombatgame.git
+    cd summer2019_wombatgame
+    python3 -m venv venv
+    source ./venv/bin/activate
+    pip install -r requirements.txt
+
+
+
 elif [ $machine = "MinGw"]
 then
     # windows case
     if [ "$(expr substr $(uname -s) 1 10)" == "MINGW32_NT" ]; then
     # Do something under 32 bits Windows NT platform
-    
+    # manual install refer to installation.md
     elif [ "$(expr substr $(uname -s) 1 10)" == "MINGW64_NT" ]; then
     # Do something under 64 bits Windows NT platform
-
-
+    # manual install refer to installation.md
 fi
