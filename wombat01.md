@@ -21,7 +21,7 @@
 
 ## Notes:
 
-wombat game:
+### wombat game:
 
 - the wombat has 7 default actions
     1. walk in the direction its facing -> ```bob.walk()```
@@ -40,7 +40,7 @@ wombat game:
 - the screen is a 16x12 grid and those dimensions will never change
 
 
-2 files:
+### 2 files:
 
 - the __only__ files you should be editing are __main.py__ and __commands.py__
 - commands for the wombat go in commands.py
@@ -65,7 +65,7 @@ def walk_5_times(self):
     bob.walk()
 ```
 
-calling functions:
+### calling functions:
 
 - calling a function is telling the computer to execute all the commands within it
 - if we want bob the wombat to walk forward once we need to call the walk function on him
@@ -80,7 +80,7 @@ calling functions:
     - remember that you need the ```self``` keyword before your function name in the ```run()``` function
 - then to run your code, you have to run main.py
 
-modifying starting conditions:
+### modifying starting conditions:
 
 - the wombat can start in different cells on the screen depending on where you set the starting location
     - by default the starting location is 0, 0 which is the upper left corner

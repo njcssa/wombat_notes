@@ -16,7 +16,8 @@
 
 ## Notes:
 
-sorting algorithms
+### sorting algorithms
+
 - sorting algorithms are programs which order lists of data into a certain order that the programmer specifies
     - a common example is a sorting algorithm which sorts the numbers in a list into increasing order
 - everyday examples
@@ -26,7 +27,8 @@ sorting algorithms
     - on rankings websites, a sorting algorithm updates the ranks when one of the items changes its value
 - as you can see, sorting algorithms are all around you in the 21st century
 
-bubble sort
+### bubble sort
+
 - the bubble sort is one of the simplest sorting algorithms
 - in short, the algorithm takes the list like [8, 6, 2, 7, 10, 3], starts off at the 8, and compares it to the number next to it (6)
     - if the one next to it is smaller, both numbers swap places like [6, 8, 2, 7, 10, 3]
@@ -60,7 +62,8 @@ bubble sort
 ![](/gifs/day9/bubble-sort.gif)
 
 
-selection sort
+### selection sort
+
 - the selection sort is another of the simple sorting algorithms
 - the basic concept behind it is finding the minimum value in a part of the list and then putting it in the current location
     - on the first iteration, the minimum value is put in the first index
@@ -96,6 +99,16 @@ selection sort
 
 ![](/gifs/day9/selection-sort.jpg)
 
+
+### problem: bubble sorting a list
+
+- go to https://repl.it/languages/python3
+- you need to make an account if you would like to save your progress
+
+
+### problem(student): selection sorting a list
+
+- go to https://repl.it/languages/python3
 
 
 ## Homework:

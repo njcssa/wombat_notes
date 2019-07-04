@@ -14,13 +14,13 @@
 
 ## Notes:
 
-problem(student): make program which creates custom sized rectangles given parameters
+### problem(student): make program which creates custom sized rectangles given parameters
 
 ![](/gifs/day8/create_rect_2x2.gif)
 
 - use setup 0
 
-problem(student): make a program which creates custom sized triangles given parameters
+### problem(student): make a program which creates custom sized triangles given parameters
 
 ![](/gifs/day8/triangle9.gif)
 

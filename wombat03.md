@@ -15,20 +15,20 @@
 
 ## Notes:
 
-problem(student): draw first letter of your first name with leaves
+### problem(student): draw first letter of your first name with leaves
 
 ![](/gifs/day3/b.gif)
 
 - use setup 0
 
-problem: climb a small wall and walk over to the other edge
+### problem: climb a small wall and walk over to the other edge
 
 ![](/gifs/day3/climb_small_wall.gif)
 
 - use setup 6
 - wombat should be at the bottom left: (0, 11)
 
-problem(student): climb over a randomly generated wall
+### problem(student): climb over a randomly generated wall
 
 ![](/gifs/day3/climb_n_wall.gif)
 
@@ -37,7 +37,7 @@ problem(student): climb over a randomly generated wall
     - therefore, your solution needs to be general to fit many different wall sizes
 - hint: figure out how to determine when the wombat is at the top of the wall using the built-in functions
 
-problem(student)(challenge): climb over mountains
+###problem(student)(challenge): climb over mountains
 
 ![](/gifs/day3/world10.gif)
 

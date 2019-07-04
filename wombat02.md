@@ -17,7 +17,8 @@
 
 
 ## Notes:
-variables:
+
+### variables:
 
 - variables allow the computer to store information that can be used later
 - variables need a name and a value to hold
@@ -25,7 +26,7 @@ variables:
 - example of a variable ```python var = 10``` which means that the variable var holds the integer 10
 - a variable's value can change by doing the following ```python var = 5``` -> now the variable ```var``` holds the integer 5 instead of 10
 
-looping:
+### looping:
 
 - looping allows programmers to write less code by relying on the computer to do instructions multiple times
 - a way to loop a piece of code is to use a ```python while``` loop
@@ -45,7 +46,7 @@ while i < 5:
     - the condition becomes false after 5 loops because 1 has been added to zero 5 times -> that means i stores 5 and 5 is not less than 5
     - after the condition becomes false, the computer exits the while loop and continues to the code below
 
-if statements:
+### if statements:
 
 - allow you to perform checks to determine truth
 - for example, you have two variables ```b = 5``` and ```c = 10```, and assume you don't know which is bigger, you can determine the biggest by using an if statement
@@ -61,7 +62,7 @@ if statements:
 for testing out variables, if statements, and while loops more, go to https://repl.it/languages/python3, paste the code, and run it.
 
 
-problem: make a program which walks the wombat around the edge of the screen
+### problem: make a program which walks the wombat around the edge of the screen
 
 ![](/gifs/day2/walk_edge.gif)
 
@@ -77,7 +78,7 @@ problem: make a program which walks the wombat around the edge of the screen
         i += 1
     ```
 
-problem: walk over to a pile of 10 leaves and pick them all up
+### problem: walk over to a pile of 10 leaves and pick them all up
 
 ![](/gifs/day2/pick_ten.gif)
 
@@ -86,7 +87,7 @@ problem: walk over to a pile of 10 leaves and pick them all up
 - however, this time, you would want to use the built in function ```found_leaf()``` to determine if the wombat is on a square which holds the stack of leaves
 - then once you determine that you are on the square, you pick them up _while_ you have _found a leaf_
 
-problem(student): pick all leaf piles in 1 row
+### problem(student): pick all leaf piles in 1 row
 
 ![](/gifs/day2/row_leaf_piles.gif)
 
@@ -102,7 +103,7 @@ problem(student): pick all leaf piles in 1 row
     - therefore, bob will only walk when he __both__ hasn't found a leaf _and_ he can move
     - notice how you can chain true and false checks together using the ```and``` keyword
 
-problem: pick all leaf piles in a row only if that pile has more than 5 leaves
+### problem: pick all leaf piles in a row only if that pile has more than 5 leaves
 
 ![](/gifs/day2/more_than_5.gif)
 
@@ -132,14 +133,14 @@ problem: pick all leaf piles in a row only if that pile has more than 5 leaves
         self.count_five()
     ```
 
-problem: pick all leaves in stacks which have even numbers of leaves and add 1 leaf to piles which have odd numbers of leaves
+### problem: pick all leaves in stacks which have even numbers of leaves and add 1 leaf to piles which have odd numbers of leaves
 
 ![](/gifs/day2/pick_even_add_one.gif)
 
 - use setup 5
 - this is similar to the problem above but now you need two options: an ```if``` and an ```else``` to make sure you catch both cases
 
-problem: have wombat clear whole screen of leaves using code we already made
+### problem: have wombat clear whole screen of leaves using code we already made
 
 ![](/gifs/day2/world1.gif)
 

@@ -13,7 +13,7 @@
 
 ## Notes:
 
-problem(student): make a program which solves the doors setup
+### problem(student): make a program which solves the doors setup
 
 ![](/gifs/day4/doors1.gif)
 
@@ -22,7 +22,7 @@ problem(student): make a program which solves the doors setup
 - hint: you know you're done when you've gone through 8 doors
 
 
-problem(student)(challenge): make a program which solves the doors setup with leaves
+### problem(student)(challenge): make a program which solves the doors setup with leaves
 
 ![](/gifs/day4/doors2.gif)
 

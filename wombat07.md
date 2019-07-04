@@ -1,4 +1,4 @@
-# Day 6 (Tuesday 7/16)
+# Day 7 (Wednesday 7/17)
 
 [Link to Slideshow](google.com)
 
@@ -6,27 +6,30 @@
 
 - 5-10 minutes of going over homework
 - 5 minute review of what we did last class
-- problem: make a program which places leaves at specific coordinates
-- problem(student): make a program which follows a coordinate list
+- appending items to a list
+- problem(student): make a program which looks through whole coordinate grid and appends coordinates to a list where it finds leaves
 
 
 ## Notes:
 
-problem: make a program which places leaves at specific coordinates
+### appending items to a list in python
 
-![](/gifs/day6/place_leaves_at_coords.gif)
+- lists can change when the programmer adds or removes values from them
+- example of adding numbers to a list
+```python
+num_list = []
+num_list.append(1)
+num_list.append(2)
+num_list.append(3)
+print(num_list) # will print out [1, 2, 3]
+```
 
-- use setup 0
-- wombat doesn't know where it is unless you keep track of coordinates for it
-- for orientation, you can always walk to the upper left corner and know for a _fact_ that it is standing on (0, 0)
 
+### problem(student): make a program which looks through whole coordinate grid and appends coordinates to a list where it finds leaves
 
+![](/gifs/day7/get_something.gif)
 
-problem(student): make a program which follows a coordinate list
-
-![](/gifs/day6/follow_coords.gif)
-
-- use setup 0
+- use setup 1
 - you need to use some if statments here to compare the current coordinate location to the next and walk in a direction based on the change
 - for example, if the x changes by positive 1, then the wombat must walk east
 - if the x changes by negative 1, then the wombat must walk west

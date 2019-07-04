@@ -14,20 +14,20 @@
 
 ## Notes:
 
-problem(student): make checkered pattern
+### problem(student): make checkered pattern
 
 ![](/gifs/day5/checkered_pattern.gif)
 
 - use setup 0
 
-problem(student): make a spiral
+### problem(student): make a spiral
 
 ![](/gifs/day5/spiral.gif)
 
 - use setup 0
 - each ring should increase the number of leaves by 1 from the ring before
 
-python functions with parameters
+### python functions with parameters
 
 - sometimes functions need more information to do their actions
 - with _parameters_ you can pass information into them
@@ -46,7 +46,7 @@ sum_func(8, 9)
 - generally, you should __not__ change the parameters by assigning them to new values
 - if you need more explanation, go here: https://www.youtube.com/watch?v=CGRKqnoQGgM
 
-python lists
+### python lists
 
 - lists are a way to store many pieces of data in a way that is efficient for looping
 - looping allows the computer to do the heavy lifting while the programmer sits back
