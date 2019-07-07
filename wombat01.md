@@ -47,7 +47,7 @@
 - the only edits you do in main.py are changing the setup variables at the top such as ```delay```, ```wombat```, and ```world```
 - to run your commands you need to call your function you just created in the ```run()``` function at the bottom of commands.py
 
-creating a basic function:
+### creating a basic function:
 
 - a function is just a collection of simple instructions to do a more complex task
 - need to use the ```def``` keyword to start

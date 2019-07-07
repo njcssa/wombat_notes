@@ -62,6 +62,49 @@ while i < 5:
 for testing out variables, if statements, and while loops more, go to https://repl.it/languages/python3, paste the code, and run it.
 
 
+### and, or, not
+- these are keywords which help a programmer adds to if statement conditions
+- the ```and``` and ```or``` go between two conditionals like ```x > 10 and x < 50```
+- ```not``` is used before a conditional statement to reverse it like ```not(x > 10)```
+- examples for ```and```:
+    ```python
+    x = 10
+    if (x > 5) and (x < 50):
+        print("this will print because both statements are True")
+
+    if (x < 5) and (x < 50):
+        print("this won't print because both statements are not True")
+
+    if (x < 5) and (x == 11):
+        print("this won't print because both statements are not True")
+    ```
+    - as you can see, ```and``` needs both statements to be true to do something
+
+- examples for ```or```:
+    ```python
+    x = 10
+    if (x > 10) or (x == 10):
+        print("this will print because at least one statement is True")
+    
+    if (x % 2 == 0) or (x < 5):
+        print("this will print because at least one statemetn is True")
+    
+    if (x / 5 == 1) or (x + 2 == 10):
+        print("this won't print because both statements are False")
+    ```
+    - as you can see, ```or``` requires at least one of the statements to be true to do something -> if both are false, then nothing happens
+
+- examples for ```not```:
+    ```python
+    x = 10
+    if not(x < 10):
+        print("this will print because it turns a false into a true")
+    
+    if not(x == 10):
+        print("this won't print because it turns a true into a false")
+    ```
+
+
 ### problem: make a program which walks the wombat around the edge of the screen
 
 ![](/gifs/day2/walk_edge.gif)
