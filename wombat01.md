@@ -1,7 +1,7 @@
 
 # Day 1 (Monday 7/8)
 
-[Link to Slideshow](google.com)
+[Link to Slideshow](https://docs.google.com/presentation/d/1DEQjd-mU9lSo2hNtqTFGSvIiTdyc1b3h-OPntc4b9pY/edit?usp=sharing)
 
 ## Topics:
 
