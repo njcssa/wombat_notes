@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 unameOut="$(uname -s)"
 case "${unameOut}" in
@@ -68,10 +68,7 @@ then
     brew install gnu-which --with-default-names
     brew install gnu-grep --with-default-names
 
-    PACKAGES=(
-        git
-        python3
-    )
+    PACKAGES=(git python3)
 
     echo "Installing packages..."
     brew install ${PACKAGES[@]}
@@ -82,17 +79,13 @@ then
     echo "Installing cask..."
     brew install caskroom/cask/brew-cask
 
-    CASKS=(
-        visual-studio-code
-    )
+    CASKS=(visual-studio-code)
 
     echo "Installing cask apps..."
     brew cask install ${CASKS[@]}
 
     echo "Installing Python packages..."
-    PYTHON_PACKAGES=(
-        virtualenv
-    )
+    PYTHON_PACKAGES=(virtualenv)
     sudo pip install ${PYTHON_PACKAGES[@]}
 
     # creating wombatgame directory
@@ -114,4 +107,5 @@ then
     elif [ "$(expr substr $(uname -s) 1 10)" == "MINGW64_NT" ]; then
     # Do something under 64 bits Windows NT platform
     # manual install refer to installation.md
+    fi
 fi
