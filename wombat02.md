@@ -1,6 +1,6 @@
 # Day 2 (Tuesday 7/9)
 
-[Link to Slideshow](google.com)
+[Link to Slideshow](https://docs.google.com/presentation/d/1JUmWCJKFH-o5G_rLOu2QOIS4fJJEzudRk5kofYlFu7k/edit?usp=sharing)
 
 ## Topics:
 
