@@ -1,6 +1,6 @@
 # Day 3 (Wednesday 7/10)
 
-[Link to Slideshow](google.com)
+[Link to Slideshow](https://docs.google.com/presentation/d/1AJpsJXStwvOEemTO4W1NP5rW-UBoDJTRVCckCJMqPIU/edit?usp=sharing)
 
 ## Topics:
 
